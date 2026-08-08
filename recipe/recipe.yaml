@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.5.4
+  version: "1.5.5"
 
 package:
   name: ejson
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/Shopify/ejson/archive//v${{ version }}.tar.gz
-  sha256: 21d92cc00f7f9f09244102040f4d738030c3e10df496668288be2c3f5bc5ee22
+  sha256: b77e7ee1c067056c0da84119e5f2e9c83d4e0274e806111705931ba935d9a6b0
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
